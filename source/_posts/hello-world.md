@@ -1,7 +1,8 @@
 title: Hello World
 date: 2016-01-16 11:50:13
-categories: 随笔 
-tags: 随笔
+categories: 技术
+tags: 
+ - hexo
 ---
 Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

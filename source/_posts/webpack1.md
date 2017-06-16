@@ -1,10 +1,10 @@
-title: 使用webpack+express+typescript+react搭建纯前端框架(二):webpack2 配置
+title: 使用webpack+express+typescript+react搭建前端框架(二):webpack2 配置
 date: 2016-12-31 21:20:28
-categories: javascript
-tags: 
- - webpack
+categories: 技术
+tags:
  - typescript
- - react
+ - webpack
+ - express
 ---
 
 之前我们将服务端与客户端代码都 ready 了，现在开始编写 `webpack.config`。 我们对于 *webpack* 的配置包括单独的 `webpack.config.js` 和 服务端的 `server.js` 。 如果不依赖于 `express` ，我们大可以使用 `webpack dev server` 来跑起来我们的前端项目。但现在我们需要在 `express` 的托管下来跑。  
@@ -104,7 +104,7 @@ const baseConfig = {
       test: /\.scss$/,
       loader: ExtractTextPlugin.extract({
         fallback: 'style-loader',
-        use: 'css-loader?modules&localIdentName=[local]-[hash:base64:5]!postcss-loader!sass-loader',
+        use: 'css-loader!postcss-loader!sass-loader',
       }),
     }, {
       test: /\.woff(\?.*)?$/,

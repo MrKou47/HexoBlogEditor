@@ -1,6 +1,6 @@
 title: 使用webpack+express+typescript+react搭建纯前端框架(一):基础构建
 date: 2016-12-02 00:07:21
-categories: javascript
+categories: 技术
 tags: 
  - webpack
  - typescript

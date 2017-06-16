@@ -1,6 +1,6 @@
 title: 用js实现数据结构中的排序
 date: 2016-01-30 22:31:59
-categories: 数据结构
+categories: 技术
 tags: 
  - 数据结构
  - javascript

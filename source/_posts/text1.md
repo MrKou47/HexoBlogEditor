@@ -1,6 +1,6 @@
 title: JS:函数与对象
 date: 2016-02-21 21:50:13
-categories: javascript
+categories: 技术
 tags: 
  - javascript
 ---

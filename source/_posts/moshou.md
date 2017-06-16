@@ -1,8 +1,8 @@
 title: 魔兽电影上映前要做的事
 date: 2016-05-16 01:38:34
+categories: 瞎写什么
 tags: 
  - World of Warcraft
- - 随笔
 ---
 # 《魔兽》6月8日上映！
 

@@ -135,6 +135,12 @@ section {
 	padding-top: 60px;
 	z-index: 4;
 }
+
+h4.title > a {
+	display: block;
+	word-break: break-word;
+}
+
 a,
 a:hover,
 a:active,
@@ -596,7 +602,10 @@ nav i.icon-basic-eye {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:active {
-	color:#777;
+	color:#fff;
+}
+.navbar .nav > li > a > i {
+	color: inherit;
 }
 @media only screen and (max-width: 1024px) {
 
@@ -3175,9 +3184,18 @@ footer .social li {
 	background: none;
 	display: inline-block;
 }
-footer .social li a i {
+footer .social li a {
 	font-size: 20px;
 	color: #999;
+	transition: color ease .3s;
+}
+footer .social li a:hover {
+	color: #fff;
+}
+footer .social li a i {
+	font-size: 20px;
+	color: inherit;
+	cursor: pointer;
 }
 footer .footer_bottom {
 	padding:2em 0;

@@ -1,12 +1,14 @@
-titile: 使用webpack, express, typescript, react 搭建前端框架（三）: Express 服务端配置
-date: 2017-1-21 23:58:10 
-categoties: javascript 
-tags：
+title: 使用webpack+express+typescript+react搭建前端框架(三):Express 服务端配置
+date: 2017-01-27 22:01:00
+categories: 技术
+tags:
  - typescript
  - webpack
  - express
 ---
-   
+
+这次我们来配置一下express 来运行我们的代码
+<!--more-->
 ### express 配置
 
 
@@ -71,7 +73,7 @@ app.listen(port, function onStart(err) {
 
 ### 请求的代理
 
-使用 *express-http-proxy* 来做请求的转发。 此模块的使用非常简单。 比如我想将 `／request` 前缀的请求全部代理到后端的接口上，代码如下：
+使用 *express-http-proxy* 来做请求的转发。 此模块的使用非常简单。 比如我想将 `/request` 前缀的请求全部代理到后端的接口上，代码如下：
 ```js
 const proxy = require('express-http-proxy');
 
