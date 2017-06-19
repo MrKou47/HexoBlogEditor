@@ -9,3 +9,10 @@
 .site-logo:hover > g {
   fill: #fff;
 }
+
+.navbar-inner.lightnav-alt .site-logo:hover > g {
+  fill: #000;
+}
+
+
+

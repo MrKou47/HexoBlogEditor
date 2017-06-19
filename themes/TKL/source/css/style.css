@@ -3311,18 +3311,19 @@ footer .footer_bottom {
 	width: 66%;
 	display: block;
 	margin: auto;
+	overflow: hidden;
 }
 .pagination a{
-	color: gray;
+	width: 40%;
+	text-overflow: ellipsis;
 	padding-left: 10px;
 	padding-right: 10px;
 	border: 1px solid gray;
 	border-radius: 20px;
-	max-width: 100%;
-	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 10px;
+	color: gray;
 	overflow: hidden;
-  	white-space: nowrap;
-  	margin-bottom: 10px;
 }
 .pagination a:hover{
 	background-color: gray;
