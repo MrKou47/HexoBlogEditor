@@ -3314,7 +3314,7 @@ footer .footer_bottom {
 	overflow: hidden;
 }
 .pagination a{
-	width: 40%;
+	max-width: 40%;
 	text-overflow: ellipsis;
 	padding-left: 10px;
 	padding-right: 10px;
