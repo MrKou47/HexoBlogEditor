@@ -14,5 +14,18 @@
         </div>
         <%- partial('post/navigation') %>
         <div class="duoshuo"><%- partial('post/duoshuo') %></div>
+        <div class="gitment-container" id="gitMentContainer"></div>
     </div>
 </section>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+    owner: 'mrkou47',
+    repo: 'BlogComment',
+    oauth: {
+        client_id: '290dbffc59f67ab13db6',
+        client_secret: 'c7fbcccec0c14098412b12fe5476677888c84036',
+    },
+    })
+    gitment.render('gitMentContainer')
+</script>
