@@ -1,6 +1,8 @@
-title: Learn Visitor Pattern
+title: 学习访问者模式
 tags: javascript design-pattern
+date: 2018-03-29 11:41:55
 ---
+
 
 最近在学习如何写一个 *babel-plugin* 的时候，发现 babel 在设计插件系统的时候，使用了 visitor pattern，遂学习了一下此模式，记录于此。
 
@@ -114,7 +116,9 @@ function run() {
     log.show();
 }
 ```
-  
+
+上面的代码中，每一个员工都有一个相应的访问者对象用来操作员工对象。
+
 ## Reference
 
 [visitor-design-pattern][3]

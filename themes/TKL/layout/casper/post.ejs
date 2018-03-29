@@ -4,7 +4,7 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<%- partial('post/meta') %>
-                <h1><%- post.title %></h1>
+                <h1 style="word-wrap: break-word;line-height: 1.2;"><%- post.title %></h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
@@ -14,18 +14,5 @@
         </div>
         <%- partial('post/navigation') %>
         <div class="duoshuo"><%- partial('post/duoshuo') %></div>
-        <div class="gitment-container" id="gitMentContainer"></div>
     </div>
 </section>
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-    owner: 'mrkou47',
-    repo: 'BlogComment',
-    oauth: {
-        client_id: '290dbffc59f67ab13db6',
-        client_secret: 'c7fbcccec0c14098412b12fe5476677888c84036',
-    },
-    })
-    gitment.render('gitMentContainer')
-</script>

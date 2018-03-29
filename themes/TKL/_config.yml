@@ -14,9 +14,11 @@ highlightjs: vs
 
 #Works
 works:
-- works_name: 微信小程序支付nodejs层接口
-  works_url: https://github.com/MrKou47/wechatPay-node
-- works_name: PainterOnline - use canvas
+- works_name: wechatPaySDK
+  works_url: https://github.com/MrKou47/wechat-pay-sdk
+- works_name: qiyuSDK
+  works_url: https://github.com/MrKou47/qiyu-sdk
+- works_name: PainterOnline
   works_url: https://github.com/MrKou47/PainterOnline
 
 #duoshuo name
@@ -35,10 +37,10 @@ weibo: http://weibo.com/
 #about  timeline
 timeline:
 - num: 1
-  word: 2014/06/12 - Start
+  word: 2014/06/12 - MIUI theme creator
 - num: 2
-  word: 2016/05/01 - jquery x bootstrap x webApp
+  word: 2016/05/01 - FE
 - num: 3
-  word: Today - nodejs x react x typescript
+  word: Today - NOFE
 - num: 4
-  word: Feature - ?
+  word: Feature - HUMAN
