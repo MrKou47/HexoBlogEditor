@@ -465,6 +465,10 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "http://r.npm.sankuai.com/console-control-strings/download/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
 
+conventional-commit-types@^2.0.0:
+  version "2.1.1"
+  resolved "http://r.npm.sankuai.com/conventional-commit-types/download/conventional-commit-types-2.1.1.tgz#352eb53f56fbc7c1a6c1ba059c2b6670c90b2a8a"
+
 copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "http://r.npm.sankuai.com/copy-descriptor/download/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
@@ -512,6 +516,16 @@ cuid@~1.3.8:
     browser-fingerprint "0.0.1"
     core-js "^1.1.1"
     node-fingerprint "0.0.2"
+
+cz-conventional-changelog@^2.1.0:
+  version "2.1.0"
+  resolved "http://r.npm.sankuai.com/cz-conventional-changelog/download/cz-conventional-changelog-2.1.0.tgz#2f4bc7390e3244e4df293e6ba351e4c740a7c764"
+  dependencies:
+    conventional-commit-types "^2.0.0"
+    lodash.map "^4.5.1"
+    longest "^1.0.1"
+    right-pad "^1.0.1"
+    word-wrap "^1.0.3"
 
 debug@*, debug@^4.1.0:
   version "4.1.1"
@@ -1363,7 +1377,7 @@ lodash.foreach@^4.3.0:
   version "4.5.0"
   resolved "http://r.npm.sankuai.com/lodash.foreach/download/lodash.foreach-4.5.0.tgz#1a6a35eace401280c7f06dddec35165ab27e3e53"
 
-lodash.map@^4.4.0:
+lodash.map@^4.4.0, lodash.map@^4.5.1:
   version "4.6.0"
   resolved "http://r.npm.sankuai.com/lodash.map/download/lodash.map-4.6.0.tgz#771ec7839e3473d9c4cde28b19394c3562f4f6d3"
 
@@ -1943,6 +1957,10 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
+right-pad@^1.0.1:
+  version "1.0.1"
+  resolved "http://r.npm.sankuai.com/right-pad/download/right-pad-1.0.1.tgz#8ca08c2cbb5b55e74dafa96bf7fd1a27d568c8d0"
+
 rimraf@^2.6.1:
   version "2.6.3"
   resolved "http://r.npm.sankuai.com/rimraf/download/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
@@ -2386,6 +2404,10 @@ window-size@0.1.0:
 window-size@^0.1.4:
   version "0.1.4"
   resolved "http://r.npm.sankuai.com/window-size/download/window-size-0.1.4.tgz#f8e1aa1ee5a53ec5bf151ffa09742a6ad7697876"
+
+word-wrap@^1.0.3:
+  version "1.2.3"
+  resolved "http://r.npm.sankuai.com/word-wrap/download/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
 
 wordwrap@0.0.2:
   version "0.0.2"
