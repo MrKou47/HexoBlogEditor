@@ -45,7 +45,7 @@ d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 schacon@mylaptop.local
 
 在github生成一个库，取名为yourname.github.io。
 点击new repository,创建库
-![creat](http://7xr185.com1.z0.glb.clouddn.com/1.png)
+![creat](http://kbscript.com/1.png)
 
 description输入对库的描述，下面选择private，然后点击creat repository。我们的博客空间就创建完成了。
 
@@ -95,7 +95,7 @@ npm版本问题，执行`npm install -g npm@3.3.12`
 解决方案：执行`eval $(ssh-agent)`。
 
 当时执行了之后感觉整个人都上天了啊！发张图你们随意感受一下歪果人解决之后的激动心情
-![stackoverflow](http://7xr185.com1.z0.glb.clouddn.com/3.png)
+![stackoverflow](http://kbscript.com/3.png)
 
 不说了，stackoverflow一生推啊。
 
@@ -103,7 +103,7 @@ npm版本问题，执行`npm install -g npm@3.3.12`
 
 当hexo配置并部署好后，输入`hexo s`启动本地服务器
 成功后显示hexo默认主题（使用的默认主题）：
-![hello hexo](http://7xr185.com1.z0.glb.clouddn.com/hexo.png)
+![hello hexo](http://kbscript.com/hexo.png)
 
 打开你博客目录下面的config.xml文件,建立与你github库的关联。
 deploy：
@@ -125,7 +125,7 @@ type可能是git或者github，一个不行就换另一个吧。
 
 首先，我们先了解一下Hexo的目录结构：
 <br>
-![hexo目录](http://7xr185.com1.z0.glb.clouddn.com/hexo.jpg)
+![hexo目录](http://kbscript.com/hexo.jpg)
 
 ```
 |--node_modules (npm)
@@ -153,7 +153,7 @@ type可能是git或者github，一个不行就换另一个吧。
 
 3.TKL 简单介绍
 因为作者是用ejs写的，所以我们修改主题的时候要考虑的问题要多一些。
-![TKL主目录](http://7xr185.com1.z0.glb.clouddn.com/tkl1.jpg)
+![TKL主目录](http://kbscript.com/tkl1.jpg)
 ```
 |-- layout (布局文件)
     |-- _widget (控件)
