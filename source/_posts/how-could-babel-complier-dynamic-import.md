@@ -1,6 +1,8 @@
 title: Dynamic import 介绍
-tags: javascript babel
 date: 2018-03-27 20:19:41
+tags:
+ - babel
+ - 编译相关
 ---
 
 ## 前言
@@ -138,10 +140,6 @@ const importPromise = import('./util.js');
 ```
 
 **解析过程(babylon)：** 
-
-使用 visual studio code 来做解析。
-
-![debug](https://cdn.pbrd.co/images/HdPNXFS.png)
 
 首先， *Babylon* 内置了一些常量，如 keywork map，keyword type map。用来在之后的 parse 过程中使用。
 

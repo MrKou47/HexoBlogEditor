@@ -18,8 +18,10 @@ works:
   works_url: https://github.com/MrKou47/wechat-pay-sdk
 - works_name: qiyuSDK
   works_url: https://github.com/MrKou47/qiyu-sdk
-- works_name: PainterOnline
-  works_url: https://github.com/MrKou47/PainterOnline
+- works_name: jest-css-modules-processor
+  works_url: https://github.com/MrKou47/jest-css-modules-processor
+- works_name: thrift-syntax-support
+  works_url: https://github.com/MrKou47/thrift-syntax-support
 
 #duoshuo name
 duoshuo:
@@ -28,19 +30,15 @@ duoshuo:
 disqus_shortname:
 
 #fancybox
-fancybox: false
+fancybox: true
 
 # Miscellaneous
 github: https://github.com/MrKou47
-weibo: http://weibo.com/
+twitter: https://twitter.com/mrkou47
 
 #about  timeline
 timeline:
 - num: 1
-  word: 2014/06/12 - MIUI theme creator
+  word: MIUI theme creator
 - num: 2
-  word: 2016/05/01 - FE
-- num: 3
-  word: Today - NOFE
-- num: 4
-  word: Feature - HUMAN
+  word: developer

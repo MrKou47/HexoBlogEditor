@@ -1,7 +1,8 @@
 title: github+hexo+nodejs搭建个人博客
 date: 2016-04-01 16:08:29
 categories: 技术
-tags: hexo
+tags:
+ - hexo
 ---
 
 这个东西也是拖了好久..回想起当初踩过的坑现在还是历历在目啊..因为网上大多数的教程都是老版本的，不是git老，就是nodejs,npm的版本太低，所以坑大多数都踩在这里了。不多说了，上干货。

@@ -5,7 +5,7 @@
 # Site
 title: KBScript
 subtitle:
-description: FE Blog
+description: blog
 author: MrKou47
 language: CN
 timezone:
@@ -68,11 +68,14 @@ theme: TKL
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 #RSS订阅
-plugin:
-- hexo-generator-feed
-type: atom
-path: atom.xml
-limit: 20
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit:
+  content_limit_delim: ' '
 
 # Archives
 ## 2: Enable pagination

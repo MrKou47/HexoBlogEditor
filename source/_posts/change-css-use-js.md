@@ -1,7 +1,8 @@
 title: 通过js获取并修改元素样式
 date: 2016-02-10 14:36:22
 categories: 技术
-tags: javascript
+tags:
+ - javascript
 ---
 
 ## 1.修改CSS样式

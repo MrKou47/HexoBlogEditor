@@ -1,6 +1,8 @@
 title: 学习访问者模式
-tags: javascript design-pattern
 date: 2018-03-29 11:41:55
+tags:
+ - javascript
+ - 设计模式
 ---
 
 
